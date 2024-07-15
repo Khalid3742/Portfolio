@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #fff;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    display: flex;
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff;
+}
+
+.hero .details {
+  margin-top: 20px;
+  margin-left: 100px;
+  align-content: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero h5 {
+    font-size: 20px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hero button:hover {
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hero .hero-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.clients {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #fff;
+    margin-top: 20px;
+}
+
+.clients img {
+    width: auto;
+    height: auto;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.service {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.service h2 {
+    margin: 20px 0;
+}
+
+.latest-work h2{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.latest-work {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 22%;
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project h3 {
+    margin: 10px 0;
+}
+
+.clients-review {
+    padding: 50px 20px;
+}
+
+.clients-review  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.card-section{
+    display: flex;
+}
+
+.card {
+    background-color: #D8D8D8;
+    align-content: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 20px;
+}
+
+.review{
+    margin-bottom: 10px;
+}
+
+.review p{
+    line-height: 2rem;
+}
+
+.avatar {
+    display: flex;
+}
+.details {
+    margin-left: 10px;
+}
+.avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+.rating {
+    color: #FFD700;
+}
+
+.empty-star {
+    color: #CFCFCF; 
+}
+
+
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.contact .message {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+}
+
+.socials {
+    margin-bottom: 10px;
+}
+
+ .socials a{
+    padding: 8px;
+ }
+@media only screen and (max-width: 600px) {
+
+    .hero-image {
+        display: none;
+    }
+
+    .hero h1 {
+    font-size: 25px;
+    margin-bottom: 10px;}
+    
+    .hero h5 {
+    font-size: 15px;}
+    .hero .details {
+        margin-left: 0px;
+    }
+
+    .clients img {
+        width: 48px;
+        height: 28px;
+    }
+
+    .services{
+        display: block;
+    }
+    .service{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .projects{
+        display: block;
+    }
+    .project{
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .card-section{
+        display: block;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
