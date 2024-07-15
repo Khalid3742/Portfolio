@@ -256,6 +256,11 @@ footer {
  .socials a{
     padding: 8px;
  }
+
+ .map-container{
+    margin-top: 20px;
+ }
+
 @media only screen and (max-width: 600px) {
 
     .hero-image {
