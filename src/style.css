@@ -67,15 +67,16 @@ header nav ul li a {
     padding: 10px 20px;
     background: #000;
     color: #fff;
-    border: none;
+    border: 2px solid gray;
+    border-radius: 10px;
     cursor: pointer;
     font-size: 20px;
 }
 
 .hero button:hover {
     padding: 10px 20px;
-    background: #000;
-    color: #fff;
+    background: #fff;
+    color: #000;
     border: none;
     cursor: pointer;
     font-size: 20px;
@@ -200,6 +201,9 @@ header nav ul li a {
     color: #FFD700;
 }
 
+.filled-star{
+    color: #FFD700;
+}
 .empty-star {
     color: #CFCFCF; 
 }
@@ -239,7 +243,17 @@ header nav ul li a {
     padding: 10px 20px;
     background: #000;
     color: #fff;
-    border: none;
+    border: 2px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    padding: 10px 20px;
+    background: #fff;
+    color: #000;
+    border: 2px solid gray;
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -259,6 +273,13 @@ footer {
 
  .map-container{
     margin-top: 20px;
+    margin-bottom: 20px;
+
+ }
+
+ .map-container iframe{
+    width: 650px;
+    height: 350px;
  }
 
 @media only screen and (max-width: 600px) {
@@ -274,7 +295,7 @@ footer {
     .hero h5 {
     font-size: 15px;}
     .hero .details {
-        margin-left: 0px;
+   margin-left: 0;
     }
 
     .clients img {
@@ -304,6 +325,28 @@ footer {
 
     .card {
         margin-bottom: 20px;
+    }
+
+    .services{
+        padding: 0 20px;
+        margin-top: 10px;
+    }
+
+    .latest-work {
+        padding: 3px 20px;
+    }
+
+    .clients-review{
+        padding: 3px 10px;
+    }
+
+    .contact{
+        padding: 3px 20px;
+    }
+
+    .map-container iFrame {
+        width: auto;
+        height: auto;
     }
 }
 
